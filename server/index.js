@@ -58,7 +58,7 @@ app.get('/api/user:id/post', (req, res) => {
   });
 });
 
-app.post('/api/authentication', (req, res) => {
+app.post('/api/authentication', (req, res) => { //더미서버이므로 랜덤함수를 활요해 50%로 성공실패 결과를 보내주도록 
   if (Math.floor(Math.random() * 10) % 2 === 0) {
     res.status(200).send({
       status: 'OK',
