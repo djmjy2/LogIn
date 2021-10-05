@@ -5,7 +5,7 @@ const template = `
       		<div class="text-5xl font-dark font-bold">404</div>
             <p
               class="text-2xl md:text-3xl font-light leading-normal"
-            >죄송합니다. 요청하신 페이지를 찾을 수 없네요.</p>
+            >죄송합니다. 요청하신 페이지를 찾을 수 없어요.</p>
           <p class="mb-8">알고계신 링크가 변경되었을 수 있습니다. 홈페이지로 돌아가셔서 변경된 링크를 확인해주세요.</p>
           
           <a href="/" class="px-4 inline py-2 text-sm font-medium leading-5 shadow text-white transition-colors duration-150 border border-transparent rounded-lg focus:outline-none focus:shadow-outline-blue bg-blue-600 active:bg-blue-600 hover:bg-blue-700">back to homepage</a>
